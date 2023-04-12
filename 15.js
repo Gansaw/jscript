@@ -5,9 +5,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
     document.querySelectorAll("#h2id").textContent = bts.textContent;
 
-    for(let item of bts){
-            console.log(item.textContent);
-        }
+    // for(let item of bts){
+    //         console.log(item.textContent);
+    //     }
 
 
         // bts.forEach((item) => {
@@ -28,9 +28,9 @@ document.addEventListener("DOMContentLoaded", () => {
         //     console.log(item.textContent);
         // }
 
-        // for(let [i,v] of bts.entries){
-        //     console.log(i,v.textContent);
-        // }
+        for(let [i,v] of bts.entries()){
+            console.log(i,v.textContent);
+        }
 
 
         
