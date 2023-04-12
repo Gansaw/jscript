@@ -23,6 +23,9 @@ const show = () => {
 
     document.querySelector("#h2id").innerHTML = '<img src="./images/' + n + '.png">';
 
+    // innerHTML : 태그 전체
+    // innerText : 태그 제외
+
     // document.querySelector("#h2id").innerHTML = '<img src="./image/${n}.png">';
 
     // switch (n){

@@ -1,5 +1,8 @@
 document.addEventListener("DOMContentLoaded", () => {
-    
+
+    // querySelector("") : 맨 처음 만나는 하나
+    // querySelectorAll("") : 전부
+
     const bts = document.querySelectorAll("button");
     console.log(bts);
 
@@ -33,6 +36,6 @@ document.addEventListener("DOMContentLoaded", () => {
         }
 
 
-        
+
 
 });
