@@ -1,13 +1,18 @@
 .grid{
     display: flex;
     flex-direction: column;
+    margin-left: 15%;
     
 }
 
 .row{
     display: flex;
-    flex-direction: row;
     
+    
+}
+h2{
+    color: red;
+    font: bold;
 }
 
 .col{
@@ -15,8 +20,8 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     border: solid black 1px;
-    margin: 0px;
+    
 }
