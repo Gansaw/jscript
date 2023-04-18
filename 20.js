@@ -62,8 +62,8 @@ document.addEventListener("DOMContentLoaded", () => {
                         flag = true;
                         document.querySelector('h2').innerHTML = "성공";
                         let lastn = arr.findIndex((item) => item == 1);
-                        console.log(lastn);
-                        cons[lastn].innerHTML = '<img src = "./images/hart.png">';
+                    // console.log(lastn);
+                        cols[lastn].innerHTML = '<img src = "./images/hart.png">';                                                                                                                  
 
 
                         //차집합 이용
