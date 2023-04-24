@@ -1,4 +1,5 @@
 # K-digital 3기 FrontEnd 수업
++ 23.04.20 : javascript 영화진흥위원회
 + 23.04.18 : javascript 폭탄게임2
 + 23.04.14 : javascript 폭탄게임1
 + 23.04.13 : javascript 문자열 다루기
